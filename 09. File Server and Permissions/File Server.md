@@ -508,25 +508,43 @@ Then select ``Convert inherited permissions into explicit permissions``:
 <img width="517" height="282" alt="image" src="https://github.com/user-attachments/assets/f6d01de9-6311-4238-9791-b43b9b78290a" />
 
 
+Then remove this user:
+
+<img width="762" height="517" alt="image" src="https://github.com/user-attachments/assets/a604e661-e121-4524-9c7f-c9eaf7c60ab3" />
+
+
+Then click on **Add**:
+
+<img width="765" height="517" alt="image" src="https://github.com/user-attachments/assets/68c2ecd1-8157-43cf-852d-ba34c8294d69" />
 
 
 
+<img width="917" height="595" alt="image" src="https://github.com/user-attachments/assets/cc0895a4-db81-4634-9ec6-714e6f324e66" />
+
+
+Then enter:
+````
+DL_HR_Modify
+````
+<img width="455" height="252" alt="image" src="https://github.com/user-attachments/assets/ec08bea9-3acb-4358-b9f3-5f93bb650d8c" />
+
+
+<img width="917" height="592" alt="image" src="https://github.com/user-attachments/assets/64d83934-d31a-42ec-981f-1789e414d90f" />
+
+
+<img width="762" height="517" alt="image" src="https://github.com/user-attachments/assets/258c666e-b9ea-45bc-a438-15dd860cdc9b" />
+
+
+<img width="356" height="481" alt="image" src="https://github.com/user-attachments/assets/422c1b1e-2023-43af-beb0-e0c40ea19754" />
+
+
+Now we completed.
+
+---
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Configure the ICT folder
 
 
 
