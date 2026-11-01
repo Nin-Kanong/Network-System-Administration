@@ -4,6 +4,42 @@
 ---
 
 
+### Table of Contents
+
+- [1. Prepare the wallpaper images](#1-prepare-the-wallpaper-images)
+
+- [2. Create the central Wallpapers folder](#2-create-the-central-wallpapers-folder)
+  - [Open File Explorer on DC01](#open-file-explorer-on-dc01)
+  - [Create the Wallpapers folder](#create-the-wallpapers-folder)
+
+- [3. Share the Wallpapers folder](#3-share-the-wallpapers-folder)
+  - [Open the folder properties](#open-the-folder-properties)
+  - [Enable folder sharing](#enable-folder-sharing)
+  - [Configure NTFS permissions](#configure-ntfs-permissions)
+
+- [4. Open Group Policy Management](#4-open-group-policy-management)
+
+- [5. Create Wallpaper on each department](#5-create-wallpaper-on-each-department)
+  - [Create the HR Wallpaper GPO](#create-the-hr-wallpaper-gpo)
+  - [Create the GPO](#create-the-gpo)
+  - [Edit the policy](#edit-the-policy)
+  - [Navigate to the wallpaper setting](#navigate-to-the-wallpaper-setting)
+  - [Configure Desktop Wallpaper](#configure-desktop-wallpaper)
+  - [Create the IT Wallpaper GPO](#create-the-it-wallpaper-gpo)
+  - [Upgrade](#upgrade)
+  - [Then restart it](#then-restart-it)
+
+- [6. Verify employee accounts are in the correct OUs](#6-verify-employee-accounts-are-in-the-correct-ous)
+
+- [7. Apply the Group Policies on users each department](#7-apply-the-group-policies-on-users-each-department)
+  - [Sign in as the HR user](#sign-in-as-the-hr-user)
+  - [Sign in to Pe Pe](#sign-in-to-pe-pe)
+  - [Sign in as the IT user](#sign-in-as-the-it-user)
+  - [Signin to C.Ronaldo](#signin-to-cronaldo)
+  - [Sign in to Marcelo](#sign-in-to-marcelo)
+
+---
+
 ## 1. Prepare the wallpaper images
 
 
