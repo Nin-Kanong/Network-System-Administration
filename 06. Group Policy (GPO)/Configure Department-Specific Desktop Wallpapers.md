@@ -1,4 +1,4 @@
-<img width="476" height="222" alt="image" src="https://github.com/user-attachments/assets/5c08fa94-df48-408b-99ef-2c3f014671e2" /><h1 align="center"> Configure Department-Specific Desktop Wallpapers </h1>
+<h1 align="center"> Configure Department-Specific Desktop Wallpapers </h1>
 
 
 ---
