@@ -353,6 +353,19 @@ Then ``Double-click`` on **Desktop Wallpaper**, click on **Enable** then enter:
 
 Now we was enabled.
 
+
+#### Upgrade:
+open **Command Prompt** as **Administrator**, then type:
+````cmd
+C:\Users\Administrator> gpupdate /force
+Updating policy...
+
+Computer Policy update has completed successfully.
+User Policy update has completed successfully.
+````
+
+
+Then restart it.
 ---
 
 
@@ -395,22 +408,36 @@ Now all three employee accounts are located in the correct Active Directory Orga
 
 ## Apply the Group Policies on users each department
 
-Now go to **CLIENT01**.
+
 
 ### Sign in as the HR user
 
 So in this I sign is into user ``pe.pe``:
 
 
+After signed in now we got new wallpaper:
+
+<img width="1917" height="938" alt="image" src="https://github.com/user-attachments/assets/ade637be-c9b7-4752-b7c4-61b3fcf86716" />
 
 
+Now we got got successful.
 
 
+---
 
 
+### Sign in as the IT user
+
+<img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/01a0935f-b809-447b-906a-8a6ea6ceec66" />
 
 
+<img width="1917" height="938" alt="image" src="https://github.com/user-attachments/assets/ef294957-b67c-4560-83c3-8fca08a26318" />
 
+
+Now we was successful.
+
+
+---
 
 
 
