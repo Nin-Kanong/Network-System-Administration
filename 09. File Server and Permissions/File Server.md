@@ -547,6 +547,82 @@ Now we completed.
 #### Configure the ICT folder
 
 
+Open **File Explorer**, then go to:
+````
+C:\Shares\NetLab Company
+````
+``Right-Click`` on **IT**:
+<img width="1110" height="637" alt="image" src="https://github.com/user-attachments/assets/c64f9c19-2482-4802-bf6b-9aa165372987" />
+
+
+<img width="362" height="482" alt="image" src="https://github.com/user-attachments/assets/087e2812-b1e0-41c8-9ee5-1447eccb3f0d" />
+
+
+Then click `Disable inheritance`:
+
+<img width="762" height="520" alt="image" src="https://github.com/user-attachments/assets/abdfd84b-6136-4a83-a870-0674ee39fd39" />
+
+
+<img width="517" height="276" alt="image" src="https://github.com/user-attachments/assets/0eaf9c1c-b6b4-49fe-8a8c-e846eb4f5293" />
+
+
+Then delete this user:
+
+<img width="761" height="520" alt="image" src="https://github.com/user-attachments/assets/1ac51d84-1471-446b-b44f-7c4489a00c96" />
+
+
+Just click on it then click on **Remove**:
+
+<img width="762" height="517" alt="image" src="https://github.com/user-attachments/assets/810f83db-7b70-45f3-aa0b-a4dd83ac965f" />
+
+
+Then click on **Add**:
+
+<img width="762" height="516" alt="image" src="https://github.com/user-attachments/assets/8998535b-22cb-43ed-b0d4-1d1292d57e3e" />
+
+
+<img width="912" height="595" alt="image" src="https://github.com/user-attachments/assets/b3e4355a-5485-4df0-bb6b-aef989a5beb3" />
+
+
+
+Then enter:
+````
+DL_IT_Modify
+````
+<img width="457" height="250" alt="image" src="https://github.com/user-attachments/assets/08de0920-8620-41b5-9519-0105b2793c0f" />
+
+
+<img width="907" height="590" alt="image" src="https://github.com/user-attachments/assets/54445245-bd57-416f-9dd4-d7e975d9ec32" />
+
+
+<img width="767" height="517" alt="image" src="https://github.com/user-attachments/assets/39541e68-b1e4-4b64-8071-0273fc71aa3d" />
+
+
+<img width="356" height="482" alt="image" src="https://github.com/user-attachments/assets/99f18280-3617-40a0-8e69-6b7bb8fd77c5" />
+
+
+Now we completed.
+
+---
+
+
+#### Configure the General folder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
