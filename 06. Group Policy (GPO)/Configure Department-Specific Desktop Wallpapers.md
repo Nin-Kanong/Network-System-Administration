@@ -1,4 +1,4 @@
-<h1 align="center"> Configure Department-Specific Desktop Wallpapers </h1>
+<img width="476" height="222" alt="image" src="https://github.com/user-attachments/assets/5c08fa94-df48-408b-99ef-2c3f014671e2" /><h1 align="center"> Configure Department-Specific Desktop Wallpapers </h1>
 
 
 ---
@@ -321,6 +321,89 @@ Now we completed to set wallpaper on **HR**.
 ### Create the IT Wallpaper GPO
 
 Now repeat the same process for the IT department.
+
+``Right-click`` on **IT**, then select **Create a GPO in this domain, and Link it here**:
+
+<img width="920" height="825" alt="image" src="https://github.com/user-attachments/assets/14ed91bf-13be-41b6-abcc-b740cca30978" />
+
+
+Then enter:
+````
+GPO-IT-Desktop-Wallpaper
+````
+<img width="476" height="222" alt="image" src="https://github.com/user-attachments/assets/0468dd7e-02d1-4717-af62-d54a6a88e3bd" />
+
+
+<img width="1917" height="657" alt="image" src="https://github.com/user-attachments/assets/22f6923a-c419-4758-83b2-870915b9a247" />
+
+
+<img width="1917" height="877" alt="image" src="https://github.com/user-attachments/assets/2daf23a0-4bf2-4cb9-aeb4-2bec0ca1dcaa" />
+
+
+Then ``Double-click`` on **Desktop Wallpaper**, click on **Enable** then enter:
+````
+\\DC01\Wallpapers\IT_Wallpaper.jpg
+````
+
+<img width="852" height="792" alt="image" src="https://github.com/user-attachments/assets/e4b4d510-af18-4b3e-8aec-d7ba862435b0" />
+
+
+<img width="1917" height="868" alt="image" src="https://github.com/user-attachments/assets/1eca1d1a-e689-4abb-b6bc-8a35a4ce95f1" />
+
+
+Now we was enabled.
+
+---
+
+
+
+## Verify employee accounts are in the correct OUs
+
+On **Windows Server**, open **PowerShell** as **Administrator**, then enter:
+````ps1
+PS C:\WINDOWS\system32> Get-ADUser pe.pe -Properties DistinguishedName | Select-Object Name,DistinguishedName           
+Name  DistinguishedName
+----  -----------------
+Pe Pe CN=Pe Pe,OU=HR,OU=Staff,OU=NetLab Company,DC=netlab,DC=com
+````
+
+
+For Cristiano:
+````ps1
+PS C:\WINDOWS\system32> Get-ADUser c.ronaldo -Properties DistinguishedName | Select-Object Name,DistinguishedName
+
+Name              DistinguishedName
+----              -----------------
+Cristiano Ronaldo CN=Cristiano Ronaldo,OU=IT,OU=Staff,OU=NetLab Company,DC=netlab,DC=com
+````
+
+
+For Marcelo:
+````ps1
+PS C:\WINDOWS\system32> Get-ADUser v.marcelo -Properties DistinguishedName | Select-Object Name,DistinguishedName
+
+Name           DistinguishedName
+----           -----------------
+Vieira Marcelo CN=Vieira Marcelo,OU=IT,OU=Staff,OU=NetLab Company,DC=netlab,DC=com
+````
+
+Now all three employee accounts are located in the correct Active Directory Organizational Units (OUs).
+
+---
+
+
+
+## Apply the Group Policies on users each department
+
+Now go to **CLIENT01**.
+
+### Sign in as the HR user
+
+So in this I sign is into user ``pe.pe``:
+
+
+
+
 
 
 
