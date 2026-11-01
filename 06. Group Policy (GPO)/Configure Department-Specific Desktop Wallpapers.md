@@ -452,9 +452,10 @@ Now all three employee accounts are located in the correct Active Directory Orga
 
 #### Sign in to Pe Pe
 
-So in this I sign is into user ``pe.pe``:
-
-
+So in this I sign is into user ``pe.pe``, and our `pe.pe` password:
+````
+@p33p33
+````
 <img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/aa017226-e2fd-415c-ac85-b6b5e16b814e" />
 
 
@@ -466,6 +467,7 @@ After signed in now we got new wallpaper:
 
 Now we got got successful to set wallpaper.
 
+> **Note**: In this I show password of user just for lab not passowrd use real life.
 
 ---
 
@@ -473,6 +475,11 @@ Now we got got successful to set wallpaper.
 ### Sign in as the IT user
 
 #### Signin to C.Ronaldo
+
+In this sign in to user `c.ronaldo`, and password is:
+````
+@R0n41d0
+````
 
 <img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/01a0935f-b809-447b-906a-8a6ea6ceec66" />
 
@@ -489,7 +496,9 @@ Now we was successful to set wallpaper.
 #### Sign in to Marcelo
 
 In this we need to sign in into user ``v.marcelo``:
-
+````
+@M4rc310
+````
 <img width="1917" height="936" alt="image" src="https://github.com/user-attachments/assets/3f5a20ef-afba-4bec-870e-665ad9a59d4e" />
 
 
