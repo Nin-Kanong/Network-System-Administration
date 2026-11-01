@@ -3,6 +3,47 @@
 
 ---
 
+### Table of Contents
+
+- [1. Verify the File Server Role Using Server Manager](#1-verify-the-file-server-role-using-server-manager)
+
+- [2. Create the Folder for Sharing](#2-create-the-folder-for-sharing)
+  - [Create a Parent Folder](#create-a-parent-folder)
+  - [Create the Company Folder](#create-the-company-folder)
+  - [Create the Four Department Folders](#create-the-four-department-folders)
+
+- [3. Create the Active Directory Security Groups Manually](#3-create-the-active-directory-security-groups-manually)
+  - [Create the Groups Organizational Unit](#create-the-groups-organizational-unit)
+  - [Understand Global and Domain Local Groups](#understand-global-and-domain-local-groups)
+  - [Create Four Global Security Groups](#create-four-global-security-groups)
+
+- [4. Add Employees to Each Groups](#4-add-employees-to-each-groups)
+  - [Add Employees to the Global Security Groups](#add-employees-to-the-global-security-groups)
+  - [Add Department Groups to GG_General](#add-department-groups-to-gg_general)
+  - [Nest Global Groups into Domain Local Groups](#nest-global-groups-into-domain-local-groups)
+
+- [5. Configure NTFS Folder Permissions](#5-configure-ntfs-folder-permissions)
+  - [Configure the HR Folder](#configure-the-hr-folder)
+  - [Configure the ICT Folder](#configure-the-ict-folder)
+  - [Configure the General Folder](#configure-the-general-folder)
+  - [Configure the Management Folder](#configure-the-management-folder)
+
+- [6. Verify All Four NTFS Permissions](#6-verify-all-four-ntfs-permissions)
+
+- [7. Create the Four Network Shares](#7-create-the-four-network-shares)
+  - [Create Share Folder for HR Department](#create-share-folder-for-hr-department)
+  - [Create Share Folder for IT Department](#create-share-folder-for-it-department)
+  - [Create Share Folder for General](#create-share-folder-for-general)
+  - [Create Share Folder for Management](#create-share-folder-for-management)
+
+- [8. Verify Share Folder](#8-verrify-share-folder)
+
+- [9. Test Share Folder](#9-test-share-folder)
+  - [Test with User c.ronaldo](#test-with-user-cronaldo)
+  - [Test with Manager Role v.marcelo](#test-with-manager-role-vmarcelo)
+
+
+---
 
 
 ## 1. verify the File Server role using Server Manager
