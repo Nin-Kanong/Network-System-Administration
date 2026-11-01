@@ -4,7 +4,7 @@
 ---
 
 
-### Prepare the wallpaper images
+## 1. Prepare the wallpaper images
 
 
 In this first we need to test with walkpaper.
@@ -12,12 +12,15 @@ In this first we need to test with walkpaper.
 So in this I use this for my **IT** and **HR** walkpaper:
 
 - **HR Wallpaper**:
-<img width="1672" height="941" alt="HR_Wallpaper" src="https://github.com/user-attachments/assets/e8b53488-2600-42d3-81af-7c26b34c4f73" />
+
+<img width="1672" height="941" alt="HR_Wallpaper" src="https://github.com/user-attachments/assets/09ba4e34-e678-4a3f-841c-d1d64cad744f" />
+
 
 
 - **IT_Wallpaper**:
 
-<img width="1672" height="941" alt="IT_Walkpaper" src="https://github.com/user-attachments/assets/206580ec-9d57-48cc-937e-d9f1ad50c45c" />
+<img width="1671" height="941" alt="IT_Wallpaper" src="https://github.com/user-attachments/assets/235858ae-f982-4d23-a5ac-73d2ba5d4675" />
+
 
 
 In this I move it to my **Windows Server**.
@@ -32,7 +35,7 @@ So this my image walkpaper:
 
 
 
-## Create the central Wallpapers folder
+## 2. Create the central Wallpapers folder
 
 In this we will put all images in one central location so every domain user can access the correct image.
 
@@ -85,7 +88,7 @@ Then change to `.jpg`, just `Double-Click` on each -> click on `File` -> `Save a
 ---
 
 
-## Share the Wallpapers folder
+## 3. Share the Wallpapers folder
 
 Now we make the images accessible to domain users.
 
@@ -207,7 +210,7 @@ Now we completed.
 ---
 
 
-## Open Group Policy Management
+## 4. Open Group Policy Management
 
 Now we will configure the policies.
 
@@ -237,7 +240,7 @@ After we going to **Group Policy (GPO)**, then expand all on our domain:
 ---
 
 
-## Create Wallpaper on each department 
+## 5. Create Wallpaper on each department 
 
 ### Create the HR Wallpaper GPO
 
@@ -370,7 +373,7 @@ Then restart it.
 
 
 
-## Verify employee accounts are in the correct OUs
+## 6. Verify employee accounts are in the correct OUs
 
 On **Windows Server**, open **PowerShell** as **Administrator**, then enter:
 ````ps1
@@ -406,21 +409,26 @@ Now all three employee accounts are located in the correct Active Directory Orga
 
 
 
-## Apply the Group Policies on users each department
-
+## 7. Apply the Group Policies on users each department
 
 
 ### Sign in as the HR user
 
+#### Sign in to Pe Pe
+
 So in this I sign is into user ``pe.pe``:
+
+
+<img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/aa017226-e2fd-415c-ac85-b6b5e16b814e" />
 
 
 After signed in now we got new wallpaper:
 
-<img width="1917" height="938" alt="image" src="https://github.com/user-attachments/assets/ade637be-c9b7-4752-b7c4-61b3fcf86716" />
+<img width="1917" height="940" alt="image" src="https://github.com/user-attachments/assets/b549ac9a-73fa-4ba4-b186-77e7eb614c4d" />
 
 
-Now we got got successful.
+
+Now we got got successful to set wallpaper.
 
 
 ---
@@ -428,30 +436,33 @@ Now we got got successful.
 
 ### Sign in as the IT user
 
+#### Signin to C.Ronaldo
+
 <img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/01a0935f-b809-447b-906a-8a6ea6ceec66" />
 
 
-<img width="1917" height="938" alt="image" src="https://github.com/user-attachments/assets/ef294957-b67c-4560-83c3-8fca08a26318" />
+<img width="1917" height="937" alt="image" src="https://github.com/user-attachments/assets/023accbc-c1a0-462f-89b9-943084922574" />
 
 
-Now we was successful.
+Now we was successful to set wallpaper.
 
 
 ---
 
 
+#### Sign in to Marcelo
+
+In this we need to sign in into user ``v.marcelo``:
+
+<img width="1917" height="936" alt="image" src="https://github.com/user-attachments/assets/3f5a20ef-afba-4bec-870e-665ad9a59d4e" />
 
 
+Now we got successful to set wallpaper:
+
+<img width="1917" height="946" alt="image" src="https://github.com/user-attachments/assets/621ff30b-1581-4bf1-b616-d55fd1433ab8" />
 
 
+Now we completed the lab.
 
 
-
-
-
-
-
-
-
-
-
+-----
