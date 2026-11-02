@@ -413,6 +413,9 @@ Then restart it.
 
 On **Windows Server**, open **PowerShell** as **Administrator**, then enter:
 ````ps1
+Get-ADUser pe.pe -Properties DistinguishedName | Select-Object Name,DistinguishedName
+````
+````ps1
 PS C:\WINDOWS\system32> Get-ADUser pe.pe -Properties DistinguishedName | Select-Object Name,DistinguishedName           
 Name  DistinguishedName
 ----  -----------------
@@ -421,6 +424,9 @@ Pe Pe CN=Pe Pe,OU=HR,OU=Staff,OU=NetLab Company,DC=netlab,DC=com
 
 
 For Cristiano:
+````ps1
+Get-ADUser c.ronaldo -Properties DistinguishedName | Select-Object Name,DistinguishedName
+````
 ````ps1
 PS C:\WINDOWS\system32> Get-ADUser c.ronaldo -Properties DistinguishedName | Select-Object Name,DistinguishedName
 
@@ -431,6 +437,9 @@ Cristiano Ronaldo CN=Cristiano Ronaldo,OU=IT,OU=Staff,OU=NetLab Company,DC=netla
 
 
 For Marcelo:
+````ps1
+Get-ADUser v.marcelo -Properties DistinguishedName | Select-Object Name,DistinguishedName
+````
 ````ps1
 PS C:\WINDOWS\system32> Get-ADUser v.marcelo -Properties DistinguishedName | Select-Object Name,DistinguishedName
 
