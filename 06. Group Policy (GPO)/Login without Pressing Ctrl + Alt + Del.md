@@ -1,12 +1,79 @@
 <h1 align="center"> Login without Pressing Ctrl + Alt + Del </h1>
 
 
----
+----
+
+
+
+## Disable Ctrl + Alt + Del on Windows Server
+
+
+On **Windows Server**, open **Server Manager**, then Open **Local Security Policy**:
+
+
+<img width="1917" height="867" alt="image" src="https://github.com/user-attachments/assets/e9c35b4c-52f5-46c2-bddf-3d639f0e7593" />
 
 
 
 
-## Configure using Active Directory Group Policy
+Then navigate to:
+````
+Local Security Policy
+└── Security Settings
+    └── Local Policies
+        └── Security Options
+            └──Interactive logon: Do not require CTRL+ALT+DEL
+````
+
+Then `Double-Click` on ``Interactive logon: Do not require CTRL+ALT+DEL``:
+
+<img width="517" height="623" alt="image" src="https://github.com/user-attachments/assets/6ed3c9ae-4007-4060-8570-81b866082ad9" />
+
+
+
+Then apply:
+````cmd
+gpupdate /force
+````
+
+<img width="675" height="206" alt="image" src="https://github.com/user-attachments/assets/ff620c19-8453-46a1-a312-9e4c26657328" />
+
+
+
+Then restart our windows server computer:
+````cmd
+shutdown /r /t 0
+````
+
+<img width="783" height="350" alt="image" src="https://github.com/user-attachments/assets/62e7c586-8e03-4457-92c5-0e00c4e4911e" />
+
+
+
+Now it was restart:
+
+<img width="1432" height="657" alt="image" src="https://github.com/user-attachments/assets/e4e739ba-525d-408e-973d-1d8c94761f6f" />
+
+
+Now it was completed restart:
+
+<img width="1917" height="986" alt="image" src="https://github.com/user-attachments/assets/18019a7d-b6ec-4360-8262-a0b35cbca30b" />
+
+
+<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/5f9b2c7f-6b96-4481-9c52-7017c43751cc" />
+
+
+Now we got successful to disable **Ctrl + Alt + Del**.
+
+
+
+
+
+
+----
+
+
+
+## Dasable Ctrl + Alt + Del on Client:
 
 
 ### Create the IT Group Policy
@@ -91,11 +158,7 @@ gpupdate /force
 
 
 
-
-
 ----
-
-
 
 
 ### Test Wuith user IT
@@ -153,91 +216,5 @@ In this Just ``double-click`` on it it will show to login again:
 Now wwe got successful.
 
 ---
-
-
-### Test with HR department that not enable GPO
-
-
-In this I want to test with **HR Department** that we are not yet to enable it.
-
-
-Just `Signout` from user IT then login with user on HR team:
-
-
-<img width="1917" height="947" alt="image" src="https://github.com/user-attachments/assets/8b9876b6-474c-4d7b-8001-3a78dcbc0ba3" />
-
-
-
-Then power off and power on it again:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
